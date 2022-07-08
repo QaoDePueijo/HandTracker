@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=I:\Google_Recogniton_folder\Google_Recogniton_folder\envir
+set VIRTUAL_ENV=C:\Users\lucas\Documentos\GitHub\HandTracker\envir
 
 if not defined PROMPT set PROMPT=$P$G
 

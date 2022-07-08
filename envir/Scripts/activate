@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="I:\Google_Recogniton_folder\Google_Recogniton_folder\envir"
+VIRTUAL_ENV="C:\Users\lucas\Documentos\GitHub\HandTracker\envir"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

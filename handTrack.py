@@ -55,7 +55,7 @@ def main():
     #current Time
     cTime = 0
     
-    cap = cv2.VideoCapture(1) #change camera
+    cap = cv2.VideoCapture(0) #change camera
     detector = handDetector()
 
     while True:
