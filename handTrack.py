@@ -40,15 +40,17 @@ class handDetector():
                 #print(id, lm)
                 h, w, c = img.shape
                 cx,cy = int(lm.x*w),int(lm.y*h)
-                lmList.append([id,cx,cy])
+                lmList.append({"id":id,"xPos":cx,"yPos":cy})
                 if draw:
                     cv2.circle(img,(cx,cy),7,(0,255,255),cv2.FILLED)
                 #print(id, cx, cy)
         
         return lmList
 
+    def getOutput(self, img, draw=True):
+        pass
         
-
+        
 def main():
     #past Time
     pTime = 0
