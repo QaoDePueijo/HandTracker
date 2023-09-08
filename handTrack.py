@@ -47,8 +47,6 @@ class handDetector():
         
         return lmList
 
-    def getOutput(self, img, draw=True):
-        pass
         
         
 def main():
