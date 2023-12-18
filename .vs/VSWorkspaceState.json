@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\envir"
   ],
-  "SelectedNode": "\\handTrack.py",
+  "SelectedNode": "\\handTrack_base_game_track.py",
   "PreviewInSolutionExplorer": false
 }
