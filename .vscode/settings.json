@@ -1,4 +1,3 @@
 {
-    "ros.distro": "noetic",
     "python.analysis.autoImportCompletions": true
 }
