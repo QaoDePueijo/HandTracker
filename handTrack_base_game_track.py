@@ -1,8 +1,9 @@
+import time
+
 import cv2
 import mediapipe as mp
-import time
-import handTrack as htm
 
+import handTrack as htm
 
 #past Time
 pTime = 0

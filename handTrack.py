@@ -1,7 +1,9 @@
 
+import time
+
 import cv2
 import mediapipe as mp
-import time
+
 
 class handDetector():
     def __init__(self, mode = False,
@@ -55,7 +57,7 @@ def main():
     #current Time
     cTime = 0
     
-    cap = cv2.VideoCapture(0) #change camera
+    cap = cv2.VideoCapture(4) #change camera
     detector = handDetector()
 
     while True:
